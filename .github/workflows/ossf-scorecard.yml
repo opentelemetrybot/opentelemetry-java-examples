@@ -14,7 +14,6 @@ permissions:
 jobs:
   analysis:
     permissions:
-      contents: read
       # Needed for Code scanning upload
       security-events: write
       # Needed for GitHub OIDC token if publish_results is true
