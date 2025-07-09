@@ -79,11 +79,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ### Maintainers
 
 - [OpenTelemetry Java Maintainers](https://github.com/open-telemetry/opentelemetry-java#maintainers)
-- [OpenTelemetry Java Instrumentation Maintainers](https://github.com/open-telemetry/opentelemetry-java-instrumentation#maintainers)
 - [OpenTelemetry Java Contrib Maintainers](https://github.com/open-telemetry/opentelemetry-java-contrib#maintainers)
+- [OpenTelemetry Java Instrumentation Maintainers](https://github.com/open-telemetry/opentelemetry-java-instrumentation#maintainers)
 
 ### Approvers
 
 - [OpenTelemetry Java Approvers](https://github.com/open-telemetry/opentelemetry-java#approvers)
-- [OpenTelemetry Java Instrumentation Approvers](https://github.com/open-telemetry/opentelemetry-java-instrumentation#approvers)
 - [OpenTelemetry Java Contrib Approvers](https://github.com/open-telemetry/opentelemetry-java-contrib#approvers)
+- [OpenTelemetry Java Instrumentation Approvers](https://github.com/open-telemetry/opentelemetry-java-instrumentation#approvers)
