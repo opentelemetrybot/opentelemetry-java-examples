@@ -1,0 +1,88 @@
+name: Other
+description: General issue that doesn't fit into bug report or feature request
+title: "[Other]: "
+labels: ["question"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reaching out to the OpenTelemetry Java Examples repository!
+        
+        Please use this template for general questions, discussions, or issues that don't fit into the bug report or feature request categories.
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue description
+      description: Please describe your issue, question, or concern.
+      placeholder: |
+        A clear and concise description of what you're asking about or the issue you're experiencing.
+        
+        If this is a question, please provide context about what you're trying to achieve.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What type of issue is this?
+      options:
+        - Question about usage
+        - Documentation issue
+        - Build/configuration issue
+        - Performance concern
+        - Best practices question
+        - Integration question
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: related-example
+    attributes:
+      label: Related example (if applicable)
+      description: Select the example this issue is related to (if applicable).
+      options:
+        - Not applicable
+        - autoconfigure
+        - grpc
+        - http
+        - jaeger
+        - javaagent
+        - logging
+        - manual-tracing
+        - metrics
+        - micrometer-shim
+        - otlp
+        - prometheus
+        - sdk-usage
+        - spring-native
+        - telemetry-testing
+        - zipkin
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: |
+        Add any other context about the issue here.
+        
+        This could include:
+        - What you've already tried
+        - Links to relevant documentation
+        - Error messages or logs
+        - Your environment details
+    validations:
+      required: false
+
+  - type: dropdown
+    attributes:
+      label: Tip
+      description: This element is static, used to render a helpful sub-heading for end-users and community members to help prioritize issues. Please leave as is.
+      options:
+        - <sub>[React](https://github.blog/news-insights/product-news/add-reactions-to-pull-requests-issues-and-comments/) with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to help us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
+      default: 0
