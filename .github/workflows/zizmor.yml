@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
   schedule:
     - cron: '51 13 * * 5' # weekly at 13:51 UTC on Friday
   workflow_dispatch:
